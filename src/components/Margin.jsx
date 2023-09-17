@@ -35,7 +35,7 @@ function Margin() {
                 {margin !== margin ? margin=0 : getMargin(price,cost).toFixed(2)}%
             </h3>
             <h3 className=' text-green-500'>Profit:$ 
-                {profit}
+                {profit.toFixed(2)}
             </h3>
         </div>
     </section>
